@@ -9,8 +9,6 @@ name2 = $stdin.gets.chomp
 player1 = Player.new(name1)
 player2 = Player.new(name2)
 
-
-
 game=Game.new(player1,player2)
 
 while player1.lives>0 and player2.lives>0 do
